@@ -51,6 +51,11 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Hydra artifacts
+nohup.out
+multirun
+outputs
+
 # Translations
 *.mo
 *.pot
