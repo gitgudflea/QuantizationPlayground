@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
 import librosa
-from dataset.dataset_helper import get_all_audio_files_and_labels
+from utils.dataset_helper import get_all_audio_files_and_labels
 from utils.audio_helper import pad_waveforms
 
 
